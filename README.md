@@ -1,10 +1,10 @@
-# Ionic Conference Application
+# Estrella Insurance Application
 
 This is purely a demo of Ionic with TypeScript. It is still in development.
 
 
 ## Important!
-**There is not an actual Ionic Conference at this time.** This project is just to show off Ionic components in a real-world application. Please go through the steps in [CONTRIBUTING.md](https://github.com/ionic-team/ionic-conference-app/blob/master/.github/CONTRIBUTING.md) before submitting an issue.
+**There is not an actual Estrella Insurance at this time.** This project is just to show off Ionic components in a real-world application. Please go through the steps in [CONTRIBUTING.md](https://github.com/ionic-team/ionic-conference-app/blob/master/.github/CONTRIBUTING.md) before submitting an issue.
 
 
 ## Table of Contents
@@ -206,3 +206,4 @@ ionic-conference-app/
 ├── tsconfig.json                       * Defines the root files and the compiler options
 ├── tslint.json                         * Defines the rules for the TypeScript linter
 ```
+# estrella-insurance
