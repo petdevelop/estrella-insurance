@@ -21,14 +21,14 @@
 // https://beta.ionicframework.com/docs/theming/color-generator
 
 :root {
-  --ion-color-primary: #3880ff;
+  --ion-color-primary: #00a74c;
   --ion-color-primary-rgb: 56,128,255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255,255,255;
   --ion-color-primary-shade: #3171e0;
   --ion-color-primary-tint: #4c8dff;
 
-  --ion-color-secondary: #0cd1e8;
+  --ion-color-secondary: #f46704;
   --ion-color-secondary-rgb: 12,209,232;
   --ion-color-secondary-contrast: #ffffff;
   --ion-color-secondary-contrast-rgb: 255,255,255;
@@ -166,11 +166,17 @@
 
 .md {
   // Use the primary color as the background for the toolbar
-  // $toolbar-md-background:                   color($colors, primary);
+  $toolbar-md-background:                   red;//color($colors, primary);
 
   // Change the color of the segment button text
   // $toolbar-md-active-color:                 #fff;
+
 }
+
+$toolbar-background: red;
+$menu-width: 150px;
+
+
 
 
 // App Theme

@@ -1,4 +1,4 @@
-# Contributing to the Ionic Conference Application
+# Contributing to the Estrella Insurance Application
 
 Thank you for taking the time to contribute! :tada::+1:
 

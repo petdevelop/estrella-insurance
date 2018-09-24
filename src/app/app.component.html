@@ -10,13 +10,13 @@
       <ion-content>
 
         <ion-list>
-          <ion-list-header>
+          <ion-list-header color="secondary">
             Navigate
           </ion-list-header>
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
             <ion-item button (click)="navigate(p.url)">
-              <ion-icon slot="start" [name]="p.icon"></ion-icon>
-              <ion-label>
+              <ion-icon color="secondary" slot="start" [name]="p.icon"></ion-icon>
+              <ion-label color="secondary">
                 {{p.title}}
               </ion-label>
             </ion-item>
@@ -25,14 +25,14 @@
         </ion-list>
 
         <ion-list *ngIf="loggedIn">
-          <ion-list-header>
+          <ion-list-header color="secondary">
             Account
           </ion-list-header>
 
           <ion-menu-toggle auto-hide="false">
             <ion-item button (click)="navigate('/account')">
-              <ion-icon slot="start" name="person"></ion-icon>
-              <ion-label>
+              <ion-icon color="secondary" slot="start" name="person"></ion-icon>
+              <ion-label color="secondary">
                 Account
               </ion-label>
             </ion-item>
@@ -40,8 +40,8 @@
 
           <ion-menu-toggle auto-hide="false">
             <ion-item button (click)="navigate('/support')">
-              <ion-icon slot="start" name="help"></ion-icon>
-              <ion-label>
+              <ion-icon color="secondary" slot="start" name="help"></ion-icon>
+              <ion-label color="secondary"color="secondary">
                 Support
               </ion-label>
             </ion-item>
@@ -49,8 +49,8 @@
 
           <ion-menu-toggle auto-hide="false">
             <ion-item button (click)="logout()">
-              <ion-icon slot="start" name="log-out"></ion-icon>
-              <ion-label>
+              <ion-icon color="secondary" slot="start" name="log-out"></ion-icon>
+              <ion-label color="secondary">
                 Logout
               </ion-label>
             </ion-item>
@@ -59,14 +59,14 @@
         </ion-list>
 
         <ion-list *ngIf="!loggedIn">
-          <ion-list-header>
+          <ion-list-header color="secondary">
             Account
           </ion-list-header>
 
           <ion-menu-toggle auto-hide="false">
             <ion-item button (click)="navigate('/login')">
-              <ion-icon slot="start" name="log-in"></ion-icon>
-              <ion-label>
+              <ion-icon color="secondary" slot="start" name="log-in"></ion-icon>
+              <ion-label color="secondary">
                 Login
               </ion-label>
             </ion-item>
@@ -74,8 +74,8 @@
 
           <ion-menu-toggle auto-hide="false">
             <ion-item button (click)="navigate('/support')">
-              <ion-icon slot="start" name="help"></ion-icon>
-              <ion-label>
+              <ion-icon color="secondary" slot="start" name="help"></ion-icon>
+              <ion-label color="secondary">
                 Support
               </ion-label>
             </ion-item>
@@ -83,8 +83,8 @@
 
           <ion-menu-toggle auto-hide="false">
             <ion-item button (click)="navigate('/signup')">
-              <ion-icon slot="start" name="person-add"></ion-icon>
-              <ion-label>
+              <ion-icon color="secondary" slot="start" name="person-add"></ion-icon>
+              <ion-label color="secondary">
                 Signup
               </ion-label>
             </ion-item>
@@ -92,13 +92,13 @@
         </ion-list>
 
         <ion-list>
-          <ion-list-header>
+          <ion-list-header color="secondary">
             Tutorial
           </ion-list-header>
           <ion-menu-toggle auto-hide="false">
             <ion-item button (click)="openTutorial()">
-              <ion-icon slot="start" name="hammer"></ion-icon>
-              <ion-label>Show Tutorial</ion-label>
+              <ion-icon color="secondary" slot="start" name="hammer"></ion-icon>
+              <ion-label color="secondary">Show Tutorial</ion-label>
             </ion-item>
           </ion-menu-toggle>
         </ion-list>
