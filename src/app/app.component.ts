@@ -15,14 +15,14 @@ import { UserData } from './providers/user-data';
 export class AppComponent implements OnInit {
   appPages = [
     {
-      title: 'Schedule',
-      url: '/app/tabs/(schedule:schedule)',
-      icon: 'calendar'
+      title: 'Payments',
+      url: '/app/tabs/(payments:payments)',
+      icon: 'cash'
     },
     {
-      title: 'Speakers',
-      url: '/app/tabs/(speakers:speakers)',
-      icon: 'contacts'
+      title: 'Offices',
+      url: '/app/tabs/(offices:offices)',
+      icon: 'business'
     },
     { title: 'Map', url: '/app/tabs/(map:map)', icon: 'map' },
     {
@@ -105,7 +105,7 @@ export class AppComponent implements OnInit {
 
   logout() {
     this.userData.logout().then(() => {
-      return this.navigate('/app/tabs/(schedule:schedule)');
+      return this.navigate('/app/tabs/(payments:payments)');
     });
   }
 

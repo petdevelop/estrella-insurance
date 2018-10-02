@@ -1,7 +1,7 @@
 <ion-header>
   <ion-toolbar color="primary">
     <ion-buttons slot="start">
-      <ion-back-button text="Schedule" defaultHref="/app/tabs/(schedule:schedule)"></ion-back-button>
+      <ion-back-button text="Payments" defaultHref="/app/tabs/(payments:payments)"></ion-back-button>
     </ion-buttons>
     <ion-title>{{session?.name}}</ion-title>
   </ion-toolbar>
@@ -10,7 +10,7 @@
 <ion-content padding>
   <div *ngIf="session">
     <h1>{{session.name}}</h1>
-    <h4 *ngFor="let speaker of session?.speakers">
+    <h4 *ngFor="let speaker of session?.offices">
       {{speaker.name}}
     </h4>
     <p>

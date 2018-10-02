@@ -2,17 +2,17 @@ import { Component, ViewChild, ViewEncapsulation } from '@angular/core';
 import { Router } from '@angular/router';
 import { AlertController, List, LoadingController, ModalController, ToastController } from '@ionic/angular';
 
-import { ScheduleFilterPage } from '../schedule-filter/schedule-filter';
+import { PaymentsFilterPage } from '../payments-filter/payments-filter';
 import { ConferenceData } from '../../providers/conference-data';
 import { UserData } from '../../providers/user-data';
 
 @Component({
-  selector: 'page-schedule',
-  templateUrl: 'schedule.html',
-  styleUrls: ['./schedule.scss'],
+  selector: 'page-payments',
+  templateUrl: 'payments.html',
+  styleUrls: ['./payments.scss'],
   encapsulation: ViewEncapsulation.None
 })
-export class SchedulePage {
+export class PaymentsPage {
   // Gets a reference to the list element
   @ViewChild('scheduleList') scheduleList: List;
 
@@ -35,12 +35,12 @@ export class SchedulePage {
   ) { }
 
   ionViewWillEnter() {
-    // this.app.setTitle('Schedule');
-    this.updateSchedule();
+    // this.app.setTitle('Payments');
+    this.updatePayments();
   }
 
-  updateSchedule() {
-    // Close any open sliding items when the schedule updates
+  updatePayments() {
+    // Close any open sliding items when the payments updates
     if (this.scheduleList) {
       this.scheduleList.closeSlidingItems();
     }
@@ -53,7 +53,7 @@ export class SchedulePage {
 
   async presentFilter() {
     const modal = await this.modalCtrl.create({
-      component: ScheduleFilterPage,
+      component: PaymentsFilterPage,
       componentProps: { excludedTracks: this.excludeTracks }
     });
     await modal.present();
@@ -61,14 +61,14 @@ export class SchedulePage {
     const { data } = await modal.onWillDismiss();
     if (data) {
       this.excludeTracks = data;
-      this.updateSchedule();
+      this.updatePayments();
     }
   }
 
   goToSessionDetail(sessionData: any) {
     // go to the session detail page
     // and pass in the session data
-    this.router.navigateByUrl(`app/tabs/(schedule:session/${sessionData.id})`);
+    this.router.navigateByUrl(`app/tabs/(payments:session/${sessionData.id})`);
   }
 
   async addFavorite(slidingItem: HTMLIonItemSlidingElement, sessionData: any) {
@@ -115,7 +115,7 @@ export class SchedulePage {
           handler: () => {
             // they want to remove this session from their favorites
             this.user.removeFavorite(sessionData.name);
-            this.updateSchedule();
+            this.updatePayments();
 
             // close the sliding item and hide the option buttons
             slidingItem.close();

@@ -4,12 +4,12 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
 
-    <ion-segment [(ngModel)]="segment" (ionChange)="updateSchedule()">
+    <ion-segment [(ngModel)]="segment" (ionChange)="updatePayments()">
       <ion-segment-button value="all">
-        All
+        Pending
       </ion-segment-button>
       <ion-segment-button value="favorites">
-        Favorites
+        Completed
       </ion-segment-button>
     </ion-segment>
 
@@ -21,7 +21,7 @@
   </ion-toolbar>
 
   <ion-toolbar color="primary">
-    <ion-searchbar [(ngModel)]="queryText" (ionChange)="updateSchedule()" placeholder="Search">
+    <ion-searchbar [(ngModel)]="queryText" (ionChange)="updatePayments()" placeholder="Search">
     </ion-searchbar>
   </ion-toolbar>
 </ion-header>
@@ -56,7 +56,7 @@
   </ion-list>
 
   <ion-list-header [hidden]="shownSessions > 0">
-    No Sessions Found
+    No Payments Found
   </ion-list-header>
 
   <ion-fab slot="fixed" vertical="bottom" horizontal="end" #fab>

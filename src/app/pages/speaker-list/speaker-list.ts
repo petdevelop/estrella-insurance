@@ -12,7 +12,7 @@ import { ConferenceData } from '../../providers/conference-data';
   encapsulation: ViewEncapsulation.None
 })
 export class SpeakerListPage {
-  speakers: any[] = [];
+  offices: any[] = [];
 
   constructor(
     public actionSheetCtrl: ActionSheetController,
@@ -22,18 +22,18 @@ export class SpeakerListPage {
   ) {}
 
   ionViewDidEnter() {
-    this.confData.getSpeakers().subscribe((speakers: any[]) => {
-      this.speakers = speakers;
+    this.confData.getSpeakers().subscribe((offices: any[]) => {
+      this.offices = offices;
     });
   }
 
   goToSessionDetail(session: any) {
-    this.router.navigateByUrl(`app/tabs/(speakers:session/${session.id})`);
+    this.router.navigateByUrl(`app/tabs/(offices:session/${session.id})`);
   }
 
   goToSpeakerDetail(speaker: any) {
     this.router.navigateByUrl(
-      `app/tabs/(speakers:speaker-details/${speaker.id})`
+      `app/tabs/(offices:speaker-details/${speaker.id})`
     );
   }
 

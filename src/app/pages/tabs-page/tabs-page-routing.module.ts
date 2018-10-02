@@ -5,7 +5,7 @@ import { TabsPage } from './tabs-page';
 
 import { AboutPage } from '../about/about';
 import { MapPage } from '../map/map';
-import { SchedulePage } from '../schedule/schedule';
+import { PaymentsPage } from '../payments/payments';
 import { SessionDetailPage } from '../session-detail/session-detail';
 import { SpeakerDetailPage } from '../speaker-detail/speaker-detail';
 import { SpeakerListPage } from '../speaker-list/speaker-list';
@@ -18,30 +18,30 @@ const routes: Routes = [
     children: [
       // tab one
       {
-        path: 'schedule',
-        component: SchedulePage,
-        outlet: 'schedule'
+        path: 'payments',
+        component: PaymentsPage,
+        outlet: 'payments'
       },
       {
         path: 'session/:sessionId',
         component: SessionDetailPage,
-        outlet: 'schedule'
+        outlet: 'payments'
       },
       // tab two
       {
-        path: 'speakers',
+        path: 'offices',
         component: SpeakerListPage,
-        outlet: 'speakers'
+        outlet: 'offices'
       },
       {
         path: 'session/:sessionId',
         component: SessionDetailPage,
-        outlet: 'speakers'
+        outlet: 'offices'
       },
       {
         path: 'speaker-details/:speakerId',
         component: SpeakerDetailPage,
-        outlet: 'speakers'
+        outlet: 'offices'
       },
       // tab three
       {

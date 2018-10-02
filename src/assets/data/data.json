@@ -146,7 +146,7 @@
         "name": "The Ionic package service",
         "location": "Room 2203",
         "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Molly Mouse", "Burt Bear"],
+        "speakerNames": ["Molly Mouse", "Burt building"],
         "timeStart": "1:30 pm",
         "timeEnd": "2:00 pm",
         "tracks": ["Services"],
@@ -158,7 +158,7 @@
         "name": "Push Notifications in Ionic",
         "location": "Room 2202",
         "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Burt Bear", "Charlie Cheetah"],
+        "speakerNames": ["Burt building", "Charlie Cheetah"],
         "timeStart": "2:00 pm",
         "timeEnd": "2:30 pm",
         "tracks": ["Services"],
@@ -208,17 +208,17 @@
 
 
   "speakers": [{
-    "name": "Burt Bear",
-    "profilePic": "assets/img/speakers/bear.jpg",
+    "name": "Burt building",
+    "profilePic": "assets/img/speakers/building.jpg",
     "twitter": "ionicframework",
-    "about": "Burt is a Bear.",
+    "about": "Burt is a building.",
     "location": "Everywhere",
     "email": "burt@example.com",
     "phone": "+1-541-754-3010",
     "id": "1"
   }, {
     "name": "Charlie Cheetah",
-    "profilePic": "assets/img/speakers/cheetah.jpg",
+    "profilePic": "assets/img/speakers/building.jpg",
     "twitter": "ionicframework",
     "about": "Charlie is a Cheetah.",
     "location": "Everywhere",
@@ -227,7 +227,7 @@
     "id": "2"
   }, {
     "name": "Donald Duck",
-    "profilePic": "assets/img/speakers/duck.jpg",
+    "profilePic": "assets/img/speakers/building.jpg",
     "twitter": "ionicframework",
     "about": "Donald is a Duck.",
     "location": "Everywhere",
@@ -236,7 +236,7 @@
     "id": "3"
   }, {
     "name": "Eva Eagle",
-    "profilePic": "assets/img/speakers/eagle.jpg",
+    "profilePic": "assets/img/speakers/building.jpg",
     "twitter": "ionicframework",
     "about": "Eva is an Eagle.",
     "location": "Everywhere",
@@ -245,7 +245,7 @@
     "id": "4"
   }, {
     "name": "Ellie Elephant",
-    "profilePic": "assets/img/speakers/elephant.jpg",
+    "profilePic": "assets/img/speakers/building.jpg",
     "twitter": "ionicframework",
     "about": "Ellie is an Elephant.",
     "location": "Everywhere",
@@ -254,7 +254,7 @@
     "id": "5"
   }, {
     "name": "Gino Giraffe",
-    "profilePic": "assets/img/speakers/giraffe.jpg",
+    "profilePic": "assets/img/speakers/building.jpg",
     "twitter": "ionicframework",
     "about": "Gino is a Giraffe.",
     "location": "Everywhere",
@@ -263,7 +263,7 @@
     "id": "6"
   }, {
     "name": "Isabella Iguana",
-    "profilePic": "assets/img/speakers/iguana.jpg",
+    "profilePic": "assets/img/speakers/building.jpg",
     "twitter": "ionicframework",
     "about": "Isabella is an Iguana.",
     "location": "Everywhere",
@@ -272,7 +272,7 @@
     "id": "7"
   }, {
     "name": "Karl Kitten",
-    "profilePic": "assets/img/speakers/kitten.jpg",
+    "profilePic": "assets/img/speakers/building.jpg",
     "twitter": "ionicframework",
     "about": "Karl is a Kitten.",
     "location": "Everywhere",
@@ -281,7 +281,7 @@
     "id": "8"
   }, {
     "name": "Lionel Lion",
-    "profilePic": "assets/img/speakers/lion.jpg",
+    "profilePic": "assets/img/speakers/building.jpg",
     "twitter": "ionicframework",
     "about": "Lionel is a Lion.",
     "location": "Everywhere",
@@ -290,7 +290,7 @@
     "id": "9"
   }, {
     "name": "Molly Mouse",
-    "profilePic": "assets/img/speakers/mouse.jpg",
+    "profilePic": "assets/img/speakers/building.jpg",
     "twitter": "ionicframework",
     "about": "Molly is a Mouse.",
     "location": "Everywhere",
@@ -299,7 +299,7 @@
     "id": "10"
   }, {
     "name": "Paul Puppy",
-    "profilePic": "assets/img/speakers/puppy.jpg",
+    "profilePic": "assets/img/speakers/building.jpg",
     "twitter": "ionicframework",
     "about": "Paul is a Puppy.",
     "location": "Everywhere",
@@ -308,7 +308,7 @@
     "id": "11"
   }, {
     "name": "Rachel Rabbit",
-    "profilePic": "assets/img/speakers/rabbit.jpg",
+    "profilePic": "assets/img/speakers/building.jpg",
     "twitter": "ionicframework",
     "about": "Rachel is a Rabbit.",
     "location": "Everywhere",
@@ -317,7 +317,7 @@
     "id": "12"
   }, {
     "name": "Ted Turtle",
-    "profilePic": "assets/img/speakers/turtle.jpg",
+    "profilePic": "assets/img/speakers/building.jpg",
     "twitter": "ionicframework",
     "about": "Ted is a Turtle.",
     "location": "Everywhere",

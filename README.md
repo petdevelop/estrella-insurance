@@ -33,23 +33,23 @@ See [CONTRIBUTING.md](https://github.com/ionic-team/ionic-conference-app/blob/ma
 ## Use Cases
 
 * Action Sheet - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/speaker-list/speaker-list.html) | [code](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/speaker-list/speaker-list.ts) ]
-* Alert - [ [code](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/schedule/schedule.ts) ]
+* Alert - [ [code](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/payments/payments.ts) ]
 * Cards - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/speaker-list/speaker-list.html) ]
 * Datetime - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/about/about.html) ]
 * Grid - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/login/login.html) ]
 * Inputs - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/login/login.html) ]
-* Items (Sliding) - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/schedule/schedule.html) | [code](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/schedule/schedule.ts) ]
+* Items (Sliding) - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/payments/payments.html) | [code](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/payments/payments.ts) ]
 * Menu - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/app.template.html) |
 [code](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/app.component.ts) ]
-* Modal - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/schedule-filter/schedule-filter.html) | [code](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/schedule/schedule.ts) ]
-* Searchbar - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/schedule/schedule.html) | [code](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/schedule/schedule.ts) ]
-* Segment - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/schedule/schedule.html) | [code](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/schedule/schedule.ts) ]
+* Modal - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/payments-filter/payments-filter.html) | [code](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/payments/payments.ts) ]
+* Searchbar - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/payments/payments.html) | [code](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/payments/payments.ts) ]
+* Segment - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/payments/payments.html) | [code](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/payments/payments.ts) ]
 * Slides - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/tutorial/tutorial.html) |
-* Sticky headers - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/schedule/schedule.html) ]
+* Sticky headers - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/payments/payments.html) ]
 * Tabs - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/tabs/tabs.html) | [code](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/tabs/tabs.ts) ]
-* Toggle - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/schedule-filter/schedule-filter.html) ]
+* Toggle - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/payments-filter/payments-filter.html) ]
 [code](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/tutorial/tutorial.ts) ]
-* Using Angular HTTP for JSON - [ [code](https://github.com/ionic-team/ionic-conference-app/blob/master/src/providers/conference-data.ts) | [usage](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/schedule/schedule.ts) ]
+* Using Angular HTTP for JSON - [ [code](https://github.com/ionic-team/ionic-conference-app/blob/master/src/providers/conference-data.ts) | [usage](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/payments/payments.ts) ]
 
 
 ## App Preview
@@ -58,14 +58,14 @@ See [CONTRIBUTING.md](https://github.com/ionic-team/ionic-conference-app/blob/ma
 
 All app preview screenshots were taken by running `ionic serve --lab` on a retina display.
 
-- [Schedule Page](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/schedule/schedule.html)
+- [Payments Page](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/payments/payments.html)
 
-  <img src="resources/screenshots/SchedulePage.png" alt="Schedule">
+  <img src="resources/screenshots/PaymentsPage.png" alt="Payments">
 
 
 - [About Page](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/about/about.html)
 
-  <img src="resources/screenshots/AboutPage.png" alt="Schedule">
+  <img src="resources/screenshots/AboutPage.png" alt="Payments">
 
 
 - To see more images of the app, check out the [screenshots directory](https://github.com/ionic-team/ionic-conference-app/tree/master/resources/screenshots)!
@@ -129,15 +129,15 @@ ionic-conference-app/
 │    │    │    └── map.ts                * MapPage code
 │    │    │    └── map.scss              * MapPage stylesheet
 │    │    │
-│    │    │── schedule/                  * Schedule tab page
-│    │    │    ├── schedule.html         * SchedulePage template
-│    │    │    └── schedule.ts           * SchedulePage code
-│    │    │    └── schedule.scss         * SchedulePage stylesheet
+│    │    │── payments/                  * Payments tab page
+│    │    │    ├── payments.html         * PaymentsPage template
+│    │    │    └── payments.ts           * PaymentsPage code
+│    │    │    └── payments.scss         * PaymentsPage stylesheet
 │    │    │
-│    │    │── schedule-filter/            * Schedule Filter page
-│    │    │    ├── schedule-filter.html   * ScheduleFilterPage template
-│    │    │    └── schedule-filter.ts     * ScheduleFilterPage code
-│    │    │    └── schedule-filter.scss   * ScheduleFilterPage stylesheet
+│    │    │── payments-filter/            * Payments Filter page
+│    │    │    ├── payments-filter.html   * PaymentsFilterPage template
+│    │    │    └── payments-filter.ts     * PaymentsFilterPage code
+│    │    │    └── payments-filter.scss   * PaymentsFilterPage stylesheet
 │    │    │
 │    │    │── session-detail/            * Session Detail page
 │    │    │    ├── session-detail.html   * SessionDetailPage template
@@ -152,7 +152,7 @@ ionic-conference-app/
 │    │    │    └── speaker-detail.ts     * SpeakerDetailPage code
 │    │    │    └── speaker-detail.scss   * SpeakerDetailPage stylesheet
 │    │    │
-│    │    │── speaker-list/              * Speakers tab page
+│    │    │── speaker-list/              * Offices tab page
 │    │    │    ├── speaker-list.html     * SpeakerListPage template
 │    │    │    └── speaker-list.ts       * SpeakerListPage code
 │    │    │    └── speaker-list.scss     * SpeakerListPage stylesheet
