@@ -3,7 +3,7 @@
   "schedule": [{
     "date": "2047-05-17",
     "groups": [{
-      "time": "8:00 am",
+      "time": "January 2018",
       "sessions": [{
         "name": "Breakfast",
         "timeStart": "8:00 am",
@@ -13,7 +13,7 @@
         "id": "1"
       }]
     }, {
-      "time": "9:15 am",
+      "time": "February 2018",
       "sessions": [{
         "name": "Introduction to Appcamp.io",
         "location": "Room 2203",
@@ -43,7 +43,7 @@
         "id": "4"
       }]
     }, {
-      "time": "10:00 am",
+      "time": "March 2018",
       "sessions": [{
         "name": "Migrating to Ionic2",
         "location": "Room 2201",
@@ -82,7 +82,7 @@
         "id": "8"
       }]
     }, {
-      "time": "11:00 am",
+      "time": "June 2018",
       "sessions": [{
         "name": "Ionic Workshop",
         "location": "Room 2201",
@@ -112,7 +112,7 @@
         "id": "11"
       }]
     }, {
-      "time": "12:00 pm",
+      "time": "July 2018",
       "sessions": [{
         "name": "Lunch",
         "location": "Auditorium",
@@ -123,7 +123,7 @@
         "id": "12"
       }]
     }, {
-      "time": "1:00 pm",
+      "time": "August 2018",
       "sessions": [{
         "name": "Ionic in the Enterprise",
         "location": "Room 2201",
@@ -153,7 +153,7 @@
         "id": "15"
       }]
     }, {
-      "time": "2:00 pm",
+      "time": "September 2018",
       "sessions": [{
         "name": "Push Notifications in Ionic",
         "location": "Room 2202",
@@ -183,7 +183,7 @@
         "id": "18"
       }]
     }, {
-      "time": "3:00",
+      "time": "October 2018",
       "sessions": [{
         "name": "Directives in Ionic",
         "location": "Room 2201",
