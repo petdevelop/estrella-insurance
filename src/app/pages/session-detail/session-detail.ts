@@ -19,12 +19,12 @@ export class SessionDetailPage {
     this.dataProvider.load().subscribe((data: any) => {
       if (
         data &&
-        data.payments &&
-        data.payments[0] &&
-        data.payments[0].groups
+        data.schedule &&
+        data.schedule[0] &&
+        data.schedule[0].groups
       ) {
         const sessionId = this.route.snapshot.paramMap.get('sessionId');
-        for (const group of data.payments[0].groups) {
+        for (const group of data.schedule[0].groups) {
           if (group && group.sessions) {
             for (const session of group.sessions) {
               if (session && session.id === sessionId) {
